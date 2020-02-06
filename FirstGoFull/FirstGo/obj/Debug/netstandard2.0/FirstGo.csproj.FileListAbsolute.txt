@@ -1,0 +1,13 @@
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\bin\Debug\netstandard2.0\FirstGo.deps.json
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\bin\Debug\netstandard2.0\FirstGo.dll
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\bin\Debug\netstandard2.0\ref\FirstGo.dll
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\bin\Debug\netstandard2.0\FirstGo.pdb
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\FirstGo.csprojAssemblyReference.cache
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\FirstGo.AssemblyInfoInputs.cache
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\FirstGo.AssemblyInfo.cs
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\FirstGo.dll
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\ref\FirstGo.dll
+C:\Users\jwalker15\Documents\FirstGo\FirstGo\obj\Debug\netstandard2.0\FirstGo.pdb

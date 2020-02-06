@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FirstGo.MainPage">
+
+    <!-- Top level layout is a Grid -->
+    <Grid Padding="10,10,10,10" BackgroundColor="LightGray"
+          RowSpacing="10" ColumnSpacing="10" >
+
+        <!-- The Grid can have its own resource dictionary-->
+        <Grid.Resources>
+            <ResourceDictionary>
+                <!-- Implicit style : applies to all Labels in the grid -->
+                <Style TargetType="Label">
+                    <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                    <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                    <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                    <Setter Property="VerticalTextAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="35"/>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <!-- Define Rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <!-- Define Columns -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Place Content -->
+        <Label Text="This" Grid.Row="0" Grid.Column="0"
+               TextColor="White" BackgroundColor="Red" />
+        <Label Text="New" Grid.Row="1" Grid.Column="0"
+               TextColor="Black" BackgroundColor="Yellow" />
+        <Label Text="Hello" Grid.Row="0" Grid.Column="1"
+               TextColor="Yellow" BackgroundColor="Blue"/>
+        <Label Text="World" Grid.Row="1" Grid.Column="1" 
+               BackgroundColor="Green"/>
+        <Button Text="PRESS ME " Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" 
+                BackgroundColor="LightPink" FontSize="34" BorderColor="Black" BorderWidth="2"/>
+
+    </Grid>
+
+</ContentPage>
