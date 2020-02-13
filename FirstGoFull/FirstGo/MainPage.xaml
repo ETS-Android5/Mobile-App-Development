@@ -7,7 +7,7 @@
              x:Class="FirstGo.MainPage">
 
     <!-- Top level layout is a Grid -->
-    <Grid Padding="10,10,10,10" BackgroundColor="LightGray"
+    <Grid Padding="10,10,10,10" BackgroundColor="DarkGray"
           RowSpacing="10" ColumnSpacing="10" >
 
         <!-- The Grid can have its own resource dictionary-->
@@ -38,16 +38,30 @@
         </Grid.ColumnDefinitions>
 
         <!-- Place Content -->
-        <Label Text="This" Grid.Row="0" Grid.Column="0"
+        <Label x:Name="lblHideMe" Text="Hide me with this! ~>"
+               Grid.Row="0" Grid.Column="0"
+               TextColor="Black" FontSize="26"
+               Grid.ColumnSpan="2"/>
+        
+        <Switch x:Name="ToggleSwitch"  
+                Grid.Row="0" Grid.Column="2" 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                IsToggled="true"
+                Toggled="ToggleSwitch_Toggled"
+                />
+
+
+        <Label x:Name="lbl1" Text="00"  Grid.Row="1" Grid.Column="2"
                TextColor="White" BackgroundColor="Red" />
         <Label Text="New" Grid.Row="1" Grid.Column="0"
                TextColor="Black" BackgroundColor="Yellow" />
-        <Label Text="Hello" Grid.Row="0" Grid.Column="1"
-               TextColor="Yellow" BackgroundColor="Blue"/>
+       
         <Label Text="World" Grid.Row="1" Grid.Column="1" 
                BackgroundColor="Green"/>
-        <Button Text="PRESS ME " Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" 
-                BackgroundColor="LightPink" FontSize="34" BorderColor="Black" BorderWidth="2"/>
+        <Button x:Name="btnNumber" Text="PRESS ME " Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" 
+                BackgroundColor="LightPink" FontSize="34" BorderColor="Black" BorderWidth="2"
+                Clicked="btnNumber_Clicked"/>
 
     </Grid>
 

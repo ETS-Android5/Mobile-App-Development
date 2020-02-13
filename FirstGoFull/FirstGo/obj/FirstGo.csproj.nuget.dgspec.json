@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj": {}
+    "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj": {
+    "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj",
+        "projectUniqueName": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj",
         "projectName": "FirstGo",
-        "projectPath": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj",
+        "projectPath": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj",
         "packagesPath": "C:\\Users\\jwalker15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\obj\\",
+        "outputPath": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

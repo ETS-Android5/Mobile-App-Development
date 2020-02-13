@@ -1940,11 +1940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo.Android\\FirstGo.Android.csproj",
+      "projectUniqueName": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo.Android\\FirstGo.Android.csproj",
       "projectName": "FirstGo.Android",
-      "projectPath": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo.Android\\FirstGo.Android.csproj",
+      "projectPath": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo.Android\\FirstGo.Android.csproj",
       "packagesPath": "C:\\Users\\jwalker15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo.Android\\obj\\",
+      "outputPath": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj": {
-              "projectPath": "C:\\Users\\jwalker15\\Documents\\FirstGo\\FirstGo\\FirstGo.csproj"
+            "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj": {
+              "projectPath": "C:\\Users\\jwalker15\\Documents\\SOFT262\\FirstGoFull\\FirstGo\\FirstGo.csproj"
             }
           }
         }
