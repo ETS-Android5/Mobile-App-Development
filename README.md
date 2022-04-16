@@ -1,1 +1,1 @@
-# SOFT262
+# SOFT262 - Mobile App Development
